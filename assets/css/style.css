@@ -2,8 +2,9 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-  }
-  a {
+}
+
+a {
     border: 2px solid black;
     border-radius: 50%;
     width: 5rem;
@@ -14,34 +15,33 @@ ul {
     margin: 4px 2px;
     border-radius: 16px;
     font-family: Lato;
-  }
+}
 
-  li {
+li {
     display: inline;
-  }
+}
 
-  nav {
+nav {
     text-align: center;
     border-bottom: 2px solid black;
     margin: 0px 20px 20px 20px;
     padding-bottom: 20px;
-  }
+}
 
-  img {
+img {
     border: 2px solid black;
     max-width: 60%;
     padding: 10px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    
-  }
+}
 
-  h1 {
+h1 {
     font-family: Roboto, sans-serif;
     text-align: center;
-  }
+}
 
-  figure {
+figure {
     margin-top: 40px;
-  }
+}
