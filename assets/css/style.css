@@ -1,12 +1,31 @@
+body {
+    background-color: #efefef;
+}
+
 header {
+    background-color: #efefef;
+    width: 100%;
     display: flex;
-    align-items: center;
+    justify-content: center;
+    align-items: baseline;
 }
 
 h1 {
-    color: blue;
+    color: #115511;
 }
 
-#introduction {
+h2 {
+    justify-self: center;
+}
+
+#introduction-text {
     width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+}
+
+p {
+    color: #115511;
 }
