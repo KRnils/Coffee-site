@@ -3,11 +3,13 @@ body {
 }
 
 header {
-    background-color: #efefef;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: baseline;
+    position: fixed;
+    z-index: 10;
+}
+
+nav {
+    width: 100%;
 }
 
 h1 {
@@ -16,6 +18,11 @@ h1 {
 
 h2 {
     justify-self: center;
+}
+
+main {
+    flex: 1 0 auto;
+    margin-top: 50px;
 }
 
 #introduction-text {
