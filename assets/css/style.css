@@ -12,7 +12,7 @@ header {
     left: 0;
     top: 0;
     text-align: center;
-    /* right, down, blur, spread, color DELETE BEFORE SUBMIT*/
+    /* right, down, blur, spread, color DELETE BEFORE SUBMIT */
     box-shadow: 0px 3px 5px 0 rgba(0,0,0,0.7);
     /* Photo by Archie Binamira: https://www.pexels.com/photo/red-ceramic-mug-on-red-saucer-1187317/ */
     background-image: url("../images/coffe-cup-on-table.png");
@@ -22,21 +22,29 @@ header {
     background-color: #8B7863;
 }
 
+/* h1 is only used in header */
+h1 {
+    font-family:Arial, Helvetica, sans-serif;
+    color: #115511;
+    background-color: rgba(240,240,240,0.7);
+}
+
 nav {
-    /*background-color: ;*/
+    background-color: rgba(240,240,240,0.7);
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
-h1 {
-    color: #115511;
+nav > a:visited {
+    color: #dddddd;
 }
 
 /* Main content */
 main {
     flex: 1 0 auto;
     margin-top: 140px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 h2 {
