@@ -12,14 +12,18 @@ header {
     left: 0;
     top: 0;
     text-align: center;
+    /* right, down, blur, spread, color DELETE BEFORE SUBMIT*/
+    box-shadow: 0px 3px 5px 0 rgba(0,0,0,0.7);
     /* Photo by Archie Binamira: https://www.pexels.com/photo/red-ceramic-mug-on-red-saucer-1187317/ */
     background-image: url("../images/coffe-cup-on-table.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 1000px auto;
+    background-color: #8B7863;
 }
 
 nav {
+    /*background-color: ;*/
     width: 100%;
     display: flex;
     justify-content: center;
