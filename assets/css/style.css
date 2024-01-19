@@ -13,7 +13,10 @@ header {
     top: 0;
     text-align: center;
     /* Photo by Archie Binamira: https://www.pexels.com/photo/red-ceramic-mug-on-red-saucer-1187317/ */
-    background-image: url("../images/Coffe-cup-on-table.jpg");
+    background-image: url("../images/coffe-cup-on-table.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1000px auto;
 }
 
 nav {
@@ -29,7 +32,7 @@ h1 {
 /* Main content */
 main {
     flex: 1 0 auto;
-    margin-top: 70px;
+    margin-top: 140px;
 }
 
 h2 {
