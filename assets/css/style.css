@@ -22,7 +22,6 @@ header {
     background-color: #8B7863;
 }
 
-/* h1 is only used in header */
 h1 {
     font-family:Arial, Helvetica, sans-serif;
     color: #115511;
@@ -31,14 +30,30 @@ h1 {
 
 nav {
     background-color: rgba(240,240,240,0.7);
-    width: 100%;
-    display: flex;
-    justify-content: center;
 }
 
-nav > a:visited {
-    color: #dddddd;
+nav ul {
+    list-style-type: none;
+    width: 30%;
+    display: inline-flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
 }
+
+nav a {
+    color: #000000;
+    padding: 10px 10px;
+}
+
+nav a:hover {
+    background-color: rgba(200,200,200,0.7);
+}
+
+nav a:active {
+    background-color: rgba(100,100,100,0.7);
+    box-shadow: inset;
+}
+
 
 /* Main content */
 main {
