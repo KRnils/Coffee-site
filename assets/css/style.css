@@ -67,6 +67,12 @@ h2 {
     justify-self: center;
 }
 
+p {
+    color: #115511;
+}
+
+/* Index page */
+
 #introduction-text {
     width: 80%;
     display: flex;
@@ -75,6 +81,12 @@ h2 {
     align-items: baseline;
 }
 
-p {
-    color: #115511;
+/* Reviews page */
+
+/* About page */
+
+#about-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
