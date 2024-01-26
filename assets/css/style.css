@@ -1,11 +1,20 @@
-
 /* From general to specific */
+
+/* Set box-sizing to border-box to be more sensible (opinion).
+Also set all padding and margins to 0, it can be added back to individual elements where needed */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-color: #efefef;
 }
 
 /* Header and navbar */
 header {
+    height: 95px;
     width: 100%;
     position: fixed;
     z-index: 10;
@@ -13,7 +22,7 @@ header {
     top: 0;
     text-align: center;
     /* right, down, blur, spread, color DELETE BEFORE SUBMIT */
-    box-shadow: 0px 3px 5px 0 rgba(0,0,0,0.7);
+    box-shadow: 0px 3px 5px 0 rgba(0, 0, 0, 0.7);
     /* Photo by Archie Binamira: https://www.pexels.com/photo/red-ceramic-mug-on-red-saucer-1187317/ */
     background-image: url("../images/coffe-cup-on-table.png");
     background-position: center;
@@ -23,20 +32,20 @@ header {
 }
 
 h1 {
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: #115511;
-    background-color: rgba(240,240,240,0.7);
+    background-color: rgba(240, 240, 240, 0.7);
 }
 
 nav {
-    background-color: rgba(240,240,240,0.7);
+    background-color: rgba(240, 240, 240, 0.7);
 }
 
 nav ul {
     list-style-type: none;
     width: 30%;
     display: inline-flex;
-    justify-content:space-between;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
@@ -46,12 +55,12 @@ nav a {
 }
 
 nav a:hover {
-    background-color: rgba(10,10,10,0.9);
+    background-color: rgba(10, 10, 10, 0.9);
     color: #efefef;
 }
 
 nav a:active {
-    background-color: rgba(100,100,100,0.7);
+    background-color: rgba(100, 100, 100, 0.7);
     box-shadow: inset;
 }
 
@@ -60,7 +69,7 @@ nav a:active {
 main {
     flex: 1 0 auto;
     margin-top: 140px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 h2 {
@@ -71,6 +80,15 @@ p {
     color: #115511;
     margin: 0.7rem;
     padding: 0.1rem;
+}
+
+/* Footer */
+footer {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    background-color: #000000;
 }
 
 /* Index page */
@@ -92,3 +110,5 @@ p {
     flex-direction: row;
     justify-content: space-around;
 }
+
+/* Media Queries */
