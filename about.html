@@ -28,26 +28,29 @@
   </header>
 
   <main>
-    <h2>About</h2>
-    <div id="about-section">
-      <div>
-        <!--Picture of the author of the website-->
-        <figure><img src="assets/images/robert.png" alt="Portrait picture of Robert, the creator of the website">
-        </figure>
+    <section id="about-text" class="main-text">
+      <h2>About</h2>
+      <!--Need this div to get image to the left of the text-->
+      <div id="about-section">
+        <div>
+          <!--Picture of the author of the website-->
+          <figure><img src="assets/images/robert.png" alt="Portrait picture of Robert, the creator of the website">
+          </figure>
+        </div>
+        <!--About text-->
+        <div id="about-text">
+          <p>Hi, I’m the creator of Cork Coffee Friend. I don’t know that much about coffee and the reviews are just
+            there for fun so please don’t be too upset if you disagree. But they are based on real experiences! However
+            the
+            main point of this website is to try out HTML, CSS and web development.</p>
+          <p>On this page you can find my social media links if you want to get in touch for any reason. Connect with me
+            on
+            Instagram or connect to me about work on LinkedIn or check out my Github.</p>
+          <p>Robert</p>
+        </div>
+        <!--To add: Social media links... maybe? Already in footer-->
       </div>
-      <!--About text-->
-      <div id="about-text">
-        <p>Hi, I’m the creator of Cork Coffee Friend. I don’t know that much about coffee and the reviews are just
-          there for fun so please don’t be too upset if you disagree. But they are based on real experiences! However
-          the
-          main point of this website is to try out HTML, CSS and web development.</p>
-        <p>On this page you can find my social media links if you want to get in touch for any reason. Connect with me
-          on
-          Instagram or connect to me about work on LinkedIn or check out my Github.</p>
-        <p>Robert</p>
-      </div>
-      <!--To add: Social media links... maybe? Already in footer-->
-    </div>
+    </section>
   </main>
 
   <!-- Footer -->
@@ -55,9 +58,12 @@
     <ul>
       <li>Author: Robert Nilsson</li>
       <li id="connect-text">Get in touch -> </li>
-      <li><i class="fa-brands fa-instagram"></i></li>
-      <li><i class="fa-brands fa-github"></i></li>
-      <li><i class="fa-brands fa-linkedin"></i></li>
+      <li><a href="https://www.instagram.com/hobby_robbie/" target="_blank" rel="noopener" aria-label="My Instagram"><i
+            class="fa-brands fa-instagram"></i></a></li>
+      <li><a href="https://github.com/KRnils" target="_blank" rel="noopener" aria-label="My Github"><i
+            class="fa-brands fa-github"></i></a></li>
+      <li><a href="https://www.linkedin.com/in/robert-nilsson-ab58b852/" target="_blank" rel="noopener"
+          aria-label="My LinkedIn Profile"><i class="fa-brands fa-linkedin"></i></a></li>
     </ul>
   </footer>
 

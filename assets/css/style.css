@@ -10,6 +10,9 @@ Also set all padding and margins to 0, it can be added back to individual elemen
 
 body {
     background-color: #efefef;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
 /* Header and navbar */
@@ -67,9 +70,20 @@ nav a:active {
 
 /* Main content */
 main {
+    /* flex-grow, flex-shrink, flex-basis */
     flex: 1 0 auto;
     margin-top: 140px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Styles for all larger text items */
+.main-text {
+    margin: 0 auto;
+    max-width: 900px;
+    background-color: white;
+    border: 2px solid #333;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adjust shadow properties as needed */
+
 }
 
 h2 {
@@ -84,9 +98,9 @@ p {
 
 /* Footer */
 footer {
+    align-self: flex-end;
+    justify-self: end;
     min-height: 30px;
-    position: absolute;
-    bottom: 0;
     width: 100%;
     background-color: #000000;
 }
@@ -108,10 +122,12 @@ footer i {
 
 #introduction-text {
     width: 80%;
+    height: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: baseline;
+    flex-grow: 2;
 }
 
 /* Reviews page */
