@@ -9,7 +9,7 @@ Also set all padding and margins to 0, it can be added back to individual elemen
 }
 
 body {
-    background-color: #efefef;
+    background-color: #ECE2D0;
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -17,6 +17,7 @@ body {
 
 a {
     text-decoration: none;
+    color: #000000;
 }
 
 /* Header and navbar */
@@ -29,16 +30,12 @@ header {
     top: 0;
     text-align: center;
     box-shadow: 0px 3px 5px 0 rgba(0, 0, 0, 0.7);
-    background-color: #8B7863;
+    background-color: #AD8350;
 }
 
 h1 {
     font-family: 'Helvetica', 'Arial', 'sans-serif';
-    color: #115511;
-}
-
-nav {
-    background-color: inherit;
+    color: #2A1A1F;
 }
 
 nav ul {
@@ -46,26 +43,31 @@ nav ul {
     width: 30%;
     display: inline-flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    align-items: center;
+    font-size: larger;
 }
 
-nav li {
-    color: #000000;
+nav a {
+    border-radius: 10%;
     padding: 5px 5px;
 }
 
-.current {
-    border-bottom: 2px solid #000000;
-} 
-
-nav li:hover {
-    background-color: rgba(100, 100, 100, 0.7);
-    color: #efefef;
+/* To make a elements stand out when you hover over them */
+nav a:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #AFA060;
 }
 
-nav li:active {
-    background-color: rgba(10, 10, 10, 0.9);
-    box-shadow: inset;
+/* For the li elements that represent the currently active page so they have the same style as the hovered links */
+.current {
+    border-radius: 10%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #AFA060;
+    padding: 5px 5px;
+} 
+
+nav a:active {
+    box-shadow: inset 0px 0px 5px #c1c1c1;
 }
 
 
@@ -89,7 +91,7 @@ h2, h3 {
 }
 
 p {
-    color: #115511;
+    color: #000000;
     margin: 0.7rem;
     padding: 0.1rem;
 }
@@ -110,7 +112,7 @@ footer {
     justify-self: end;
     min-height: 30px;
     width: 100%;
-    background-color: #000000;
+    background-color: #2A1A1F;
 }
 
 footer>ul {
@@ -124,6 +126,16 @@ footer>ul {
 
 footer i {
     font-size: 150%;
+}
+
+footer a {
+    color: white;
+    padding: 1px;
+}
+
+footer a:hover {
+    color: black;
+    background-color: white;
 }
 
 /* Index page */
