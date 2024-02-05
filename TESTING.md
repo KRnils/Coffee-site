@@ -65,7 +65,7 @@ The site was fully tested with the following devices and browsers
 `Home - Cork Coffee Friend (index.html)`
 
 | Feature | Expected Outcome | Testing Performed | Pass/Fail |
-| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- |
 | The sites title | Link directs the user back to the index.html (reloads current page) | Clicking | Pass |
 | Navbar "Reviews" link | Redirects to the Reviews page | Clicking | Pass |
 | Navbar "Contact" link | Redirects to the Contact page | Clicking | Pass |
