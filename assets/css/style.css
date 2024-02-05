@@ -12,8 +12,7 @@ body {
     background-color: #ECE2D0;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
-    /* Set min-height to ensure the body covers at least the viewport height */
+    min-height: 100vh; /* Set min-height to ensure the body covers at least the viewport height */
 }
 
 a {
@@ -39,13 +38,15 @@ h1 {
     color: #2A1A1F;
 }
 
-nav ul {
+#navigation-menu {
     list-style-type: none;
     width: 30%;
+    margin: 10px;
+    min-width: 256px;
     display: inline-flex;
     justify-content: space-between;
     align-items: center;
-    font-size: larger;
+    font-size: x-large;
 }
 
 nav a {
@@ -80,12 +81,18 @@ main {
 
 /* Styles for all larger text items */
 .main-text {
+    padding: 4vw;
     margin: 20px auto;
     max-width: 900px;
     background-color: white;
     /* right, down, blur, spread, color DELETE BEFORE SUBMIT */
     box-shadow: 2px 5px 5px 0 rgba(0, 0, 0, 0.7);
     height: 100%;
+}
+
+/* Main text links should behave more like classic links and become underlined when hovered */
+.main-text a:hover {
+    text-decoration: underline;
 }
 
 h2, h3 {
@@ -140,7 +147,6 @@ footer a:hover {
 /* Index page */
 
 #introduction-text {
-    width: 80%;
     height: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -166,6 +172,9 @@ article>img {
     min-height: 300px;
 }
 
+/* Thank you page */
+/* No specific styles here yet */
+
 /* Using grid layout here to easily make elements align neatly */
 #form-grid {
     display: grid;
@@ -180,4 +189,10 @@ article>img {
     #connect-text {
         display: none;
     }
+
+    /* Make navbar links reasonably sized for smaller screens */
+    #navigation-menu {
+        font-size: large;
+    }
+
 }
