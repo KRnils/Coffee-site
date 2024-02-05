@@ -47,4 +47,31 @@ tables test
 |test1|test2|
 
 ## MANUAL TESTING
+### Full Testing
 
+The site was fully tested with the following devices and browsers
+
+* Macbook Pro 14-inch, 2023
+    * Browser: Chrome, Safari
+* Macbook Air 13-inch, Early-2015
+    * Browser: Safari
+* Desktop computer with 24-inch screen
+  * Browser: Firefox
+* iPhone 13
+  * Browser: Safari
+* iPhone 12 Mini
+  * Browser: Safari
+
+`Home - Cork Coffee Friend (index.html)`
+
+| Feature | Expected Outcome | Testing Performed | Pass/Fail |
+| --- | --- | --- | --- | --- |
+| The sites title | Link directs the user back to the index.html (reloads current page) | Clicking | Pass |
+| Navbar "Reviews" link | Redirects to the Reviews page | Clicking | Pass |
+| Navbar "Contact" link | Redirects to the Contact page | Clicking | Pass |
+| Instagram Icon in footer| Opens a new tab to site author's Instagram page | Clicking | Pass |
+| Github Icon in footer| Opens a new tab to site author's Github page | | Clicking | Pass |
+| LinkedIn Icon in footer| Opens a new tab to site author's LinkedIn page | Clicking | Pass |
+| All navbar links hover effect | All navbar links, except the one representing the currently active one, "Home", should receive a dark background and the black text should change to match the navbar background | Hover over each button in navbar | Pass |
+
+``
