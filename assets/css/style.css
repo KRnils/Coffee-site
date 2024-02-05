@@ -117,6 +117,7 @@ footer {
 }
 
 footer>ul {
+    padding: 2vh;
     font-size: large;
     display: flex;
     justify-content: space-around;
@@ -125,13 +126,10 @@ footer>ul {
     font-family: 'Lucida Grande', 'Lucida Sans', 'Lucida Sans Unicode', 'Arial';
 }
 
-footer i {
-    font-size: 150%;
-}
-
 footer a {
+    padding: 6px;
+    font-size: 180%;
     color: white;
-    padding: 1px;
 }
 
 footer a:hover {
