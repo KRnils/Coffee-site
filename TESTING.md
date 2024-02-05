@@ -42,6 +42,7 @@ At the last stage of development Lighthouse (also in Chrome dev tools) was used 
 I used Lighthouse within the Chrome Developer Tools to test the performance, accessibility, best practices and SEO of the website.
 
 tables test
+|test1|test2|test3|
 | :--- | :--- | :--- |
 |test1|test2|
 
