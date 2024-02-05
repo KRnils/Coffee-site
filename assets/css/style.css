@@ -1,6 +1,6 @@
 /* From general to specific */
 
-/* Set box-sizing to border-box to be more sensible (opinion).
+/* Set box-sizing to border-box so things behave.
 Also set all padding and margins to 0, it can be added back to individual elements where needed */
 * {
     padding: 0;
@@ -159,12 +159,19 @@ article > img {
     object-fit: contain;
 }
 
-/* About page */
+/* Contact page */
 
-#about-section {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+#newsletter-form {
+    margin: 20px auto 20px auto;
+    width: 30%;
+    min-height: 300px;
+}
+
+/* Using grid layout here to easily make elements align neatly */
+#form-grid {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 50px auto;
 }
 
 /* Media Queries */

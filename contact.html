@@ -31,28 +31,34 @@
   </header>
 
   <main>
-    <section id="about-text" class="main-text">
-      <h2>About</h2>
+    <section id="contact-section" class="main-text">
+      <h2>Contact</h2>
       <!--Need this div to get image to the left of the text-->
       <div id="about-section">
-        <div>
-          <!--Picture of the author of the website-->
-          <figure><img src="assets/images/robert.png" alt="Portrait picture of Robert, the creator of the website">
-          </figure>
-        </div>
         <!--About text-->
         <div>
           <p>Hi, I’m the creator of Cork Coffee Friend. I don’t know that much about coffee and the reviews are just
             there for fun so please don’t be too upset if you disagree. But they are based on real experiences! However
             the
             main point of this website is to try out HTML, CSS and web development.</p>
-          <p>On this page you can find my social media links if you want to get in touch for any reason. Connect with me
-            on
-            Instagram or connect to me about work on LinkedIn or check out my Github.</p>
+          <p>On this page you can sign up for the Cork Coffe Friend newsletter to always find out when a new review is
+            added.
+            Also check out the social media links in the footer, feel free to add my Instagram or connect to me about
+            work on LinkedIn or check out my Github.</p>
           <p>Robert</p>
         </div>
-        <!--To add: Social media links... maybe? Already in footer-->
       </div>
+      <h2>Sign up for our newsletter!</h2>
+      <form id="newsletter-form" method="GET" action="thank-you.html">
+        <div id="form-grid">
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" autocomplete="name" required>
+          <label for="email">E-Mail</label>
+          <input type="text" name="email" id="email" autocomplete="email" required>
+        </div>
+        <br>
+        <button type="submit" class="form-submit">Submit</button>
+      </form>
     </section>
   </main>
 
