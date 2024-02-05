@@ -14,7 +14,10 @@ Cork Coffee Friend is a curated platform that dives into the heart of Cork City'
 
 
 ## Testing
-Placeholder for future testing to be described
+
+### W3C Validator Testing
+
+index.html
 
 ### Bugs
 Placeholder for any upcoming bugs
