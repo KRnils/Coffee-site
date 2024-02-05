@@ -1,4 +1,4 @@
-# The Quiz Arms -  Testing
+# Cork Coffe Friend - Testing
 
 ![Results of https://ui.dev/amiresponsive test for index.html](assets/readme/amiresponsive-index.jpg)
 
@@ -33,10 +33,17 @@ At the last stage of development Lighthouse (also in Chrome dev tools) was used 
 
 ### W3C CSS Validation
 
-[W3C CSS Validator (Jigsaw)] (https://jigsaw.w3.org/css-validator/) was used to test the CSS
+[W3C CSS Validator \(Jigsaw\)] (https://jigsaw.w3.org/css-validator/) was used to test the CSS
 
 * style.css passed with no errors
 
+### Lighthouse
 
+I used Lighthouse within the Chrome Developer Tools to test the performance, accessibility, best practices and SEO of the website.
 
+tables test
+| :--- | :--- | :--- |
+|test1|test2|
+
+## MANUAL TESTING
 
