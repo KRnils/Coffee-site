@@ -186,11 +186,8 @@ article>img {
 #newsletter-form {
     margin: 20px auto 20px auto;
     width: 30%;
-    min-height: 300px;
+    min-height: 170px;
 }
-
-/* Thank you page */
-/* No specific styles here yet */
 
 /* Using grid layout here to easily make elements align neatly */
 #form-grid {
@@ -199,15 +196,33 @@ article>img {
     grid-template-columns: 50px auto;
 }
 
+form button {
+    font-size: large;
+    width: 10em;
+    padding: 1em;
+    margin: auto;
+    color: black;
+    border-radius: 10%;
+    background-color: white;
+}
+
+form button:hover {
+    background-color: black;
+    color: white;
+}
+
+/* Thank you page */
+/* No specific styles here yet */
+
 /* Media Queries */
 @media screen and (max-width:768px) {
 
-    /* Hide connect text for smaller screens, icons will speak for themselves */
+    /* Hide connect text ("Get in touch ->") for smaller screens, icons will speak for themselves */
     #connect-text {
         display: none;
     }
 
-    /* Make navbar links reasonably sized for smaller screens */
+    /* Make navbar links reasonably sized for smaller screens (otherwise it's x-large) */
     #navigation-menu {
         font-size: large;
     }

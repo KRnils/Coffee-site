@@ -2,7 +2,7 @@
 
 Welcome to Cork Coffee Friend, your ultimate guide to exploring the vibrant café culture in Cork City! Whether you're a seasoned coffee connoisseur or someone looking for a cozy spot to enjoy a cup of joe, we've got you covered.
 
-<h2 align="center"><img src="assets/readme/amiresponsive.jpg"></h2>
+<h2 align="center"><img src="assets/readme/amiresponsive-index.jpg"></h2>
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -26,8 +26,11 @@ All CSS has been testeed with W3C validator (Jigsaw) and show no errors or warni
 ### Lighthouse Test results
 
 
-### Bugs
+### Solved Bugs
 Placeholder for any upcoming bugs
+
+### Known Bugs
+
 
 ### Accessibility
 Placeholder for Lighthouse results
