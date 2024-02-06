@@ -6,12 +6,13 @@
 
 ## CONTENTS
 
-* [AUTOMATED TESTING](#automated-testing)
-  * [W3C Validator](#w3c-validator)
-  * [Lighthouse](#lighthouse)
+* [AUTOMATED TESTING](#Automated-Testing)
+  * [W3C Validator](#W3C-HTML-Validation)
+  * [Lighthouse](#Lighthouse)
 
 * [MANUAL TESTING](#manual-testing)
-
+  * [Devices](#Devices)
+  * [Devices](#Tests-Performed-Per-Page)
 
 
 
@@ -20,8 +21,7 @@ At the last stage of development Lighthouse (also in Chrome dev tools) was used 
 
 
 
-## AUTOMATED TESTING
-
+## Automated Testing
 ### W3C HTML Validation
 
 [W3C Validator](https://validator.w3.org/) was used to test all the HTML on the site
@@ -39,10 +39,26 @@ At the last stage of development Lighthouse (also in Chrome dev tools) was used 
 
 ### Lighthouse
 
-I used Lighthouse within the Chrome Developer Tools to test the performance, accessibility, best practices and SEO of the website.
+I used Lighthouse within the Chrome Developer Tools to test the performance, accessibility, best practices and SEO of the website. All scores were 100 except for Mobile performance on the reviews page, likely because of the many images. Initially performance results was only 82 for reviews.html, but this score was improved after converting the images from jpg to webp format. The below table lists the most recent test on the current version of the site (February 6, 2024).
+
+__Desktop Scores__
+| Page | Performance | Accessibility | SEO | Best Practices |
+|---|---|---|---|---|
+|index.html|100|100|100|100|
+|reviews.html|100|100|100|100|
+|contact.html|100|100|100|100|
+|thank-you.html|100|100|100|100|
+
+__Mobile Scores__
+| Page | Performance | Accessibility | SEO | Best Practices |
+|---|---|---|---|---|
+|index.html|100|100|100|100|
+|reviews.html|97|100|100|100|
+|contact.html|100|100|100|100|
+|thank-you.html|100|100|100|100|
 
 ## MANUAL TESTING
-### Full Testing
+### Devices
 
 The site was fully tested with the following devices and browsers
 
@@ -57,6 +73,9 @@ The site was fully tested with the following devices and browsers
 * iPhone 12 Mini
   * Browser: Safari
 
+
+### Tests Performed Per Page
+
 `Home - Cork Coffee Friend (index.html)`
 
 | Feature | Expected Outcome | Testing Performed | Pass/Fail |
@@ -64,6 +83,7 @@ The site was fully tested with the following devices and browsers
 | The sites title | Link directs the user back to index.html (reloads current page) | Clicking | Pass |
 | Navbar "Reviews" link | Redirects to the Reviews page | Clicking | Pass |
 | Navbar "Contact" link | Redirects to the Contact page | Clicking | Pass |
+| Go to reviews link | Redirects to the reviews page | Clicking | Pass |
 | Instagram Icon in footer| Opens a new tab to site author's Instagram page | Clicking | Pass |
 | Github Icon in footer| Opens a new tab to site author's Github page | Clicking | Pass |
 | LinkedIn Icon in footer| Opens a new tab to site author's LinkedIn page | Clicking | Pass |
@@ -75,7 +95,7 @@ The site was fully tested with the following devices and browsers
 | Feature | Expected Outcome | Testing Performed | Pass/Fail |
 | --- | --- | --- | --- |
 | The sites title | Link directs the user back to index.html | Clicking | Pass |
-| Navbar "Reviews" link | Redirects to the Reviews page | Clicking | Pass |
+| Navbar "Home" link | Redirects to the Home page | Clicking | Pass |
 | Navbar "Contact" link | Redirects to the Contact page | Clicking | Pass |
 | Instagram Icon in footer| Opens a new tab to site author's Instagram page | Clicking | Pass |
 | Github Icon in footer| Opens a new tab to site author's Github page | Clicking | Pass |
@@ -89,7 +109,10 @@ The site was fully tested with the following devices and browsers
 | --- | --- | --- | --- |
 | The sites title | Link directs the user back to index.html | Clicking | Pass |
 | Navbar "Reviews" link | Redirects to the Reviews page | Clicking | Pass |
-| Navbar "Contact" link | Redirects to the Contact page | Clicking | Pass |
+| Navbar "Home" link | Redirects to the Home page | Clicking | Pass |
+| Form Submit with Name field empty | Shows an indication that the name field needs to be filled, regardless of if E-Mail field is filled in or not | Clicking | Pass |
+| Form Submit with Name field filled in but email field empty | Shows an indication that the E-Mail field needs to be filled | Clicking | Pass |
+| Form Submit with both Name and E-Mail fields filled in | Redirects to the thank-you.html page | Clicking | Pass |
 | Instagram Icon in footer| Opens a new tab to site author's Instagram page | Clicking | Pass |
 | Github Icon in footer| Opens a new tab to site author's Github page | Clicking | Pass |
 | LinkedIn Icon in footer| Opens a new tab to site author's LinkedIn page | Clicking | Pass |
@@ -101,6 +124,7 @@ The site was fully tested with the following devices and browsers
 | Feature | Expected Outcome | Testing Performed | Pass/Fail |
 | --- | --- | --- | --- |
 | The sites title | Link directs the user back to index.html | Clicking | Pass |
+| Navbar "Home" link | Redirects to the Home page | Clicking | Pass |
 | Navbar "Reviews" link | Redirects to the Reviews page | Clicking | Pass |
 | Navbar "Contact" link | Redirects to the Contact page | Clicking | Pass |
 | Instagram Icon in footer| Opens a new tab to site author's Instagram page | Clicking | Pass |
