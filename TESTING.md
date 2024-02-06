@@ -142,6 +142,7 @@ The site was fully tested with the following devices and browsers
 | Navbar "Home" link | Redirects to the Home page | Clicking or tapping | Pass |
 | Navbar "Reviews" link | Redirects to the Reviews page | Clicking or tapping | Pass |
 | Navbar "Contact" link | Redirects to the Contact page | Clicking or tapping | Pass |
+| "Go back to front page" link inside main text | Redirects to the Home page | Clicking or tapping | Pass |
 | Instagram Icon in footer| Opens a new tab to site author's Instagram page | Clicking or tapping | Pass |
 | Github Icon in footer| Opens a new tab to site author's Github page | Clicking or tapping | Pass |
 | LinkedIn Icon in footer| Opens a new tab to site author's LinkedIn page | Clicking or tapping | Pass |
