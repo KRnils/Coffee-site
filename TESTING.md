@@ -1,14 +1,11 @@
 # Cork Coffe Friend - Testing
 
-![Results of https://ui.dev/amiresponsive test for index.html](assets/readme/amiresponsive-index.jpg)
-
-
-
 ## CONTENTS
 
 * [AUTOMATED TESTING](#Automated-Testing)
   * [W3C Validator](#W3C-HTML-Validation)
   * [Lighthouse](#Lighthouse)
+  * [Am I Responsive](#Am-I-Responsive)
 
 * [MANUAL TESTING](#manual-testing)
   * [Devices](#Devices)
@@ -57,6 +54,20 @@ __Mobile Scores__
 |contact.html|100|100|100|100|
 |thank-you.html|100|100|100|100|
 
+
+### Am I Responsive Results
+
+Below are the results from [Am I Responsive](https://ui.dev/amiresponsive)
+
+* index.html
+![Results of https://ui.dev/amiresponsive test for index.html](assets/readme/amiresponsive-index.jpg)
+
+* reviews.html
+
+* contact.html
+
+* thank-you.html
+
 ## MANUAL TESTING
 ### Devices
 
@@ -80,13 +91,13 @@ The site was fully tested with the following devices and browsers
 
 | Feature | Expected Outcome | Testing Performed | Pass/Fail |
 | --- | --- | --- | --- |
-| The sites title | Link directs the user back to index.html (reloads current page) | Clicking | Pass |
-| Navbar "Reviews" link | Redirects to the Reviews page | Clicking | Pass |
-| Navbar "Contact" link | Redirects to the Contact page | Clicking | Pass |
-| Go to reviews link | Redirects to the reviews page | Clicking | Pass |
-| Instagram Icon in footer| Opens a new tab to site author's Instagram page | Clicking | Pass |
-| Github Icon in footer| Opens a new tab to site author's Github page | Clicking | Pass |
-| LinkedIn Icon in footer| Opens a new tab to site author's LinkedIn page | Clicking | Pass |
+| The sites title | Link directs the user back to index.html (reloads current page) | Clicking or tapping | Pass |
+| Navbar "Reviews" link | Redirects to the Reviews page | Clicking or tapping | Pass |
+| Navbar "Contact" link | Redirects to the Contact page | Clicking or tapping | Pass |
+| Go to reviews link | Redirects to the reviews page | Clicking or tapping | Pass |
+| Instagram Icon in footer| Opens a new tab to site author's Instagram page | Clicking or tapping | Pass |
+| Github Icon in footer| Opens a new tab to site author's Github page | Clicking or tapping | Pass |
+| LinkedIn Icon in footer| Opens a new tab to site author's LinkedIn page | Clicking or tapping | Pass |
 | All navbar links hover effect | All navbar links, except the one representing the currently active one, "Home", should receive a dark background and the black text should change to match the navbar background | Hover over each button in navbar | Pass |
 | All footer social media icons hover effect | All footer links should invert colors, receive a white background and the icon should change from white to black for contrast | Hover over each social media icon in footer | Pass |
 
@@ -94,12 +105,12 @@ The site was fully tested with the following devices and browsers
 
 | Feature | Expected Outcome | Testing Performed | Pass/Fail |
 | --- | --- | --- | --- |
-| The sites title | Link directs the user back to index.html | Clicking | Pass |
-| Navbar "Home" link | Redirects to the Home page | Clicking | Pass |
-| Navbar "Contact" link | Redirects to the Contact page | Clicking | Pass |
-| Instagram Icon in footer| Opens a new tab to site author's Instagram page | Clicking | Pass |
-| Github Icon in footer| Opens a new tab to site author's Github page | Clicking | Pass |
-| LinkedIn Icon in footer| Opens a new tab to site author's LinkedIn page | Clicking | Pass |
+| The sites title | Link directs the user back to index.html | Clicking or tapping | Pass |
+| Navbar "Home" link | Redirects to the Home page | Clicking or tapping | Pass |
+| Navbar "Contact" link | Redirects to the Contact page | Clicking or tapping | Pass |
+| Instagram Icon in footer| Opens a new tab to site author's Instagram page | Clicking or tapping | Pass |
+| Github Icon in footer| Opens a new tab to site author's Github page | Clicking or tapping | Pass |
+| LinkedIn Icon in footer| Opens a new tab to site author's LinkedIn page | Clicking or tapping | Pass |
 | All navbar links hover effect | All navbar links, except the one representing the currently active one, "Reviews", should receive a dark background and the black text should change to match the navbar background | Hover over each button in navbar | Pass |
 | All footer social media icons hover effect | All footer links should invert colors, receive a white background and the icon should change from white to black for contrast | Hover over each social media icon in footer | Pass |
 
@@ -107,15 +118,15 @@ The site was fully tested with the following devices and browsers
 
 | Feature | Expected Outcome | Testing Performed | Pass/Fail |
 | --- | --- | --- | --- |
-| The sites title | Link directs the user back to index.html | Clicking | Pass |
-| Navbar "Reviews" link | Redirects to the Reviews page | Clicking | Pass |
-| Navbar "Home" link | Redirects to the Home page | Clicking | Pass |
-| Form Submit with Name field empty | Shows an indication that the name field needs to be filled, regardless of if E-Mail field is filled in or not | Clicking | Pass |
-| Form Submit with Name field filled in but email field empty | Shows an indication that the E-Mail field needs to be filled | Clicking | Pass |
-| Form Submit with both Name and E-Mail fields filled in | Redirects to the thank-you.html page | Clicking | Pass |
-| Instagram Icon in footer| Opens a new tab to site author's Instagram page | Clicking | Pass |
-| Github Icon in footer| Opens a new tab to site author's Github page | Clicking | Pass |
-| LinkedIn Icon in footer| Opens a new tab to site author's LinkedIn page | Clicking | Pass |
+| The sites title | Link directs the user back to index.html | Clicking or tapping | Pass |
+| Navbar "Reviews" link | Redirects to the Reviews page | Clicking or tapping | Pass |
+| Navbar "Home" link | Redirects to the Home page | Clicking or tapping | Pass |
+| Form Submit with Name field empty | Shows an indication that the name field needs to be filled, regardless of if E-Mail field is filled in or not | Clicking or tapping | Pass |
+| Form Submit with Name field filled in but email field empty | Shows an indication that the E-Mail field needs to be filled | Clicking or tapping | Pass |
+| Form Submit with both Name and E-Mail fields filled in | Redirects to the thank-you.html page | Clicking or tapping | Pass |
+| Instagram Icon in footer| Opens a new tab to site author's Instagram page | Clicking or tapping | Pass |
+| Github Icon in footer| Opens a new tab to site author's Github page | Clicking or tapping | Pass |
+| LinkedIn Icon in footer| Opens a new tab to site author's LinkedIn page | Clicking or tapping | Pass |
 | All navbar links hover effect | All navbar links, except the one representing the currently active one, "Contact", should receive a dark background and the black text should change to match the navbar background | Hover over each button in navbar | Pass |
 | All footer social media icons hover effect | All footer links should invert colors, receive a white background and the icon should change from white to black for contrast | Hover over each social media icon in footer | Pass |
 
@@ -123,12 +134,12 @@ The site was fully tested with the following devices and browsers
 
 | Feature | Expected Outcome | Testing Performed | Pass/Fail |
 | --- | --- | --- | --- |
-| The sites title | Link directs the user back to index.html | Clicking | Pass |
-| Navbar "Home" link | Redirects to the Home page | Clicking | Pass |
-| Navbar "Reviews" link | Redirects to the Reviews page | Clicking | Pass |
-| Navbar "Contact" link | Redirects to the Contact page | Clicking | Pass |
-| Instagram Icon in footer| Opens a new tab to site author's Instagram page | Clicking | Pass |
-| Github Icon in footer| Opens a new tab to site author's Github page | Clicking | Pass |
-| LinkedIn Icon in footer| Opens a new tab to site author's LinkedIn page | Clicking | Pass |
+| The sites title | Link directs the user back to index.html | Clicking or tapping | Pass |
+| Navbar "Home" link | Redirects to the Home page | Clicking or tapping | Pass |
+| Navbar "Reviews" link | Redirects to the Reviews page | Clicking or tapping | Pass |
+| Navbar "Contact" link | Redirects to the Contact page | Clicking or tapping | Pass |
+| Instagram Icon in footer| Opens a new tab to site author's Instagram page | Clicking or tapping | Pass |
+| Github Icon in footer| Opens a new tab to site author's Github page | Clicking or tapping | Pass |
+| LinkedIn Icon in footer| Opens a new tab to site author's LinkedIn page | Clicking or tapping | Pass |
 | All navbar links hover effect | All navbar links should receive a dark background and the black text should change to match the navbar background | Hover over each button in navbar | Pass |
 | All footer social media icons hover effect | All footer links should invert colors, receive a white background and the icon should change from white to black for contrast | Hover over each social media icon in footer | Pass |
