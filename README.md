@@ -49,7 +49,7 @@ see [TESTING.md](TESTING.md) for more details
 
 ### Solved Bugs
 
-* Navbar links would shift to a different horizontal alignment from site logo for smaller devices causing a bad look. Issue was caused by size of navbar being set relative to width of screen/window. Resolution was to add a min-width attribute to navbar so elements would not overflow the navbar size. 
+* Navbar links would shift to a different horizontal alignment from site logo for smaller devices causing a bad look. Issue was caused by size of navbar being set relative to width of screen/window, and the contents of the navbar overflowing, the contents would still be visible but the center of the element would not be centered. Solution was to add a min-width attribute to navbar so elements would not overflow the navbar size when there is less space available. 
 
 ### Known Bugs
 * Validation for the newsletter form does not check if the email field contains a valid email address

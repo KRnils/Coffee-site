@@ -36,12 +36,12 @@ At the last stage of development Lighthouse (also in Chrome dev tools) was used 
 
 ### Lighthouse
 
-I used Lighthouse within the Chrome Developer Tools to test the performance, accessibility, best practices and SEO of the website. All scores were 100 except for Mobile performance on the reviews page, likely because of the many images. Initially performance results was only 82 for reviews.html, but this score was improved after converting the images from jpg to webp format. The below table lists the most recent test on the current version of the site (February 6, 2024).
+I used Lighthouse within the Chrome Developer Tools to test the performance, accessibility, best practices and SEO of the website. Scores 100 in all categories except performance which varied between 96 and 100, the slight dip in performance seems to be related to amount and size of image files as index.html and reviews.html are the ones that see a lower score and they are the pages with images which are somewhat large. Initially performance results was only 82 for reviews.html, but this score was improved after converting the images from jpg to webp format. The below table lists the most recent test on the current version of the site (February 6, 2024).
 
 __Desktop Scores__
 | Page | Performance | Accessibility | SEO | Best Practices |
 |---|---|---|---|---|
-|index.html|100|100|100|100|
+|index.html|99|100|100|100|
 |reviews.html|100|100|100|100|
 |contact.html|100|100|100|100|
 |thank-you.html|100|100|100|100|
@@ -49,10 +49,10 @@ __Desktop Scores__
 __Mobile Scores__
 | Page | Performance | Accessibility | SEO | Best Practices |
 |---|---|---|---|---|
-|index.html|100|100|100|100|
-|reviews.html|97|100|100|100|
+|index.html|97|100|100|100|
+|reviews.html|96|100|100|100|
 |contact.html|100|100|100|100|
-|thank-you.html|100|100|100|100|
+|thank-you.html|99|100|100|100|
 
 
 ### Am I Responsive Results
@@ -63,10 +63,14 @@ Below are the results from [Am I Responsive](https://ui.dev/amiresponsive)
 ![Results of https://ui.dev/amiresponsive test for index.html](assets/readme/amiresponsive-index.jpg)
 
 * reviews.html
+![Results of https://ui.dev/amiresponsive test for reviews.html](assets/readme/amiresponsive-reviews.jpg)
 
 * contact.html
+![Results of https://ui.dev/amiresponsive test for contact.html](assets/readme/amiresponsive-contact.jpg)
 
 * thank-you.html
+![Results of https://ui.dev/amiresponsive test for thank-you.html](assets/readme/amiresponsive-thank-you.jpg)
+
 
 ## MANUAL TESTING
 ### Devices
