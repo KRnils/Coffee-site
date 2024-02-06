@@ -14,10 +14,12 @@ Cork Coffee Friend is a curated platform that dives into the heart of Cork City'
 
 ## Features
 
+* Four html pages with styles in one CSS file to create a uniform style
+* A list of four real café reviews
+* All links and buttons react to hover so it's clear that they are interactive
+* Newsletter sign-up form
 
 ## Testing
-
-see [TESTING.md] (TESTING.md) for more details
 
 ### W3C Validator Testing
 
@@ -25,14 +27,15 @@ All HTML has been tested with the W3C validator and show no errors or warnings.
 
 All CSS has been testeed with W3C validator (Jigsaw) and show no errors or warnings.
 
-### Lighthouse Test results
+### Accessibility
+Lighthouse Testing actually showed lower performance for the reviews page where there are four somewhat large jpg files, these were converted to webp to improve performance.
 
+see [TESTING.md](TESTING.md) for more details
 
 ### Solved Bugs
+
 Placeholder for any upcoming bugs
 
 ### Known Bugs
+No bugs are known
 
-
-### Accessibility
-Placeholder for Lighthouse results
