@@ -14,10 +14,20 @@ Cork Coffee Friend is a curated platform that dives into the heart of Cork City'
 
 ## Features
 
+### Existing Features
+
 * Four html pages with styles in one CSS file to create a uniform style
-* A list of four real café reviews
+* Four real café reviews
 * All links and buttons react to hover so it's clear that they are interactive
-* Newsletter sign-up form
+* Newsletter sign-up form with validation
+
+* __Navigation Bar__
+- All pages of the website has the navigation bar at the top that links to other parts of the site to allow for easy navigation. The navigation bar highlights any of the links when they are hovered and they react when they are clicked.
+
+<h2 align="center"><img src="assets/readme/navbar-demo.jpg"></h2>
+
+* __Footer__
+- All pages have the same footer, with links to social media in the form of their respective logos, like the navbar links the social media links also highlight when hovered over to help show that they are clickable.
 
 ## Testing
 
@@ -34,8 +44,9 @@ see [TESTING.md](TESTING.md) for more details
 
 ### Solved Bugs
 
-Placeholder for any upcoming bugs
+* Navbar links moved to a different alignment from H1 for smaller devices causing a bad look. Issue 
+* 
 
 ### Known Bugs
-No bugs are known
+* Validation for the newsletter form does not check if the email field contains a valid email address
 
