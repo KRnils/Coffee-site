@@ -19,13 +19,16 @@ For consistency:
 - To keep things as readable as possible in body text the background is white and the text is black, menu elements and pictures provide more interesting colors.
 - I have used #AD8350 for the header and #ECE2D0 for the body background, these colors are also found in the hero image and go well with the red subject in that image.
 
-In my css file I declared the colours as variables, and then used these throughout the css file.
-
 ### Typography
 I have picked Trebuchet MS, a Sans Serif type face as my font for all body text on the website. It has a unique personality while maintaining readability and clarity without being too formal and tedious.
 
 ### Accessibility
-I have utilised underlined hyperlinked text when hovered over to help convey that they are clickable. I have also used a button in the Contact page to draw users attention as a call to action. The text  has sufficient spacing which helps readability. The flow in which the sequence of tabs are arranged is also deliberate so it is intuitive for users to first navigate to Home and later on Reviews at the bottom of the Home page. The Contact page is located last on the header. On the footer, all the buttons redirecting users to social media profiles are located so it is visible to users if they scroll further without cluttering the main content.
+
+* Semantic HTML is used as much as possible and conforming with best practices.
+* All links and buttons use some form of highlighting when hovered over to help convey that they are clickable.
+* Choosing a sans serif font for the site - these fonts are suitable for people with dyslexia.
+* Ensuring that there is a sufficient colour contrast throughout the site.
+* In the footer, all the buttons redirecting users to social media profiles are located so it is visible to users if they scroll further without cluttering the main content.
 
 ## Features
 
@@ -81,7 +84,6 @@ I have utilised underlined hyperlinked text when hovered over to help convey tha
 
 ![Thank you](assets/readme/thank-you-demo.jpg)
 
-
 ## Testing
 
 ### W3C Validator Testing
@@ -97,22 +99,18 @@ __All CSS has been testeed with W3C validator (Jigsaw) and show no errors or war
 
 - [style.css results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fkrnils.github.io%2FCoffee-site%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv)
 
-### Accessibility
+### Accessibility Test
 
-* Semantic HTML
-* All links use a 
-* Choosing a sans serif font for the site - these fonts are suitable for people with dyslexia.
-* Ensuring that there is a sufficient colour contrast throughout the site.
 All scores were 100 for all Lighthouse tests except performance which reached as low as 96 on the reviews.html page on mobile. 
 
-see [TESTING.md](TESTING.md) for full list of scores and other tests performed.
+see [TESTING.md](TESTING.md) for all details and a full list of scores and other tests performed.
 
 ### Solved Bugs
 
 * Navbar links would shift to a different horizontal alignment from site logo for smaller devices causing a bad look. Issue was caused by size of navbar being set relative to width of screen/window, and the contents of the navbar overflowing, the contents would still be visible but the center of the element would not be centered. Solution was to add a min-width attribute to navbar so elements would not overflow the navbar size when there is less space available. 
 
 ### Known Bugs
-* Validation for the newsletter form does not check if the email field contains a valid email address, if both fields have any text it will pass the validation. Only leaving either field blank gives a warning and stops progress.
+* Validation for the newsletter form does not check if the email field contains a valid email address, if both fields have any text it will pass the validation. Only leaving either field blank gives a warning and stops progress until amended.
 
 ## Deployment
 
@@ -129,14 +127,13 @@ The live link can be found here - https://krnils.github.io/Coffee-site/
 
 - The reviews and the home page welcome text were written using chatGPT, the prompts did require some details from myself to include important details from the real world and get the style right.
 - All other text was written by me personally.
-- Lots of inspiration was taken from the Code Institute Love Running project
+- A Lot of the design is inspired by the Code Institute Love Running project.
 - This Stackoverflow thread helped me figure out how to get the footer and main elements behave like I wanted them: https://stackoverflow.com/questions/6654958/make-body-have-100-of-the-browser-height
 - The social media links in the footer are provided by [Font Awesome](https://fontawesome.com/)
 - Favicon was provided by https://favicon.io/ see [favicon about](assets/favicon/about.txt) for license details
 
 ### Media
 - https://playgroundai.com/ was used to create the images for the reviews, they are all inspired by the real locations but I did not have time to go take pictures.
-
 - The red coffe cup on the home page is a photo by Archie Binamira found on Pexels.com, thanks! https://www.pexels.com/photo/red-ceramic-mug-on-red-saucer-1187317/
 
 ### Tools
@@ -147,3 +144,4 @@ The live link can be found here - https://krnils.github.io/Coffee-site/
 - [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) Was used to validate the CSS, no issues were found.
 - [Coolors](https://coolors.co/) Was used to help pick colors that fit the mood while maintaining good contrast for readability and accessibility.
 - Initially development started in [gitpod](https://gitpod.io/), since it's essentially running VS Code in a browser I soon installed [VS Code](https://code.visualstudio.com/) and ran it locally instead for better performance.
+- [cwebp](https://developers.google.com/speed/webp/download) Was used to convert images to webp
