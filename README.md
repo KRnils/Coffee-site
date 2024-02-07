@@ -55,21 +55,27 @@ I have picked Trebuchet MS, a Sans Serif type face as my font for all body text 
 Wireframes were created for mobile and desktop versions, the design has changed a bit since their inception based on practical and design considerations.
 
 - Home page
+
 ![index-wireframe](assets/readme/Wireframes/index-wireframe.webp)
 
 - Home page mobile
+
 ![mobile-index-wireframe](assets/readme/Wireframes/mobile-index-wireframe.webp)
 
 - Contact page
+
 ![form-wireframe](assets/readme/Wireframes/form-wireframe.webp)
 
 - Contact page mobile
+
 ![mobile-about-wireframe](assets/readme/Wireframes/mobile-about-wireframe.webp)
 
 - Reviews page
+
 ![mobile-reviews-wireframe](assets/readme/Wireframes/mobile-reviews-wireframe.png)
 
 - Reviews page mobile
+
 ![Reviews-wireframe](assets/readme/Wireframes/reviews-wireframe.webp)
 
 ## Features
