@@ -6,6 +6,7 @@
     + [Colour Scheme](#colour-scheme)
     + [Typography](#typography)
     + [Accessibility](#accessibility)
+    + [Wireframes](#wireframes)
   * [Features](#features)
     + [Existing Features](#existing-features)
   * [Testing](#testing)
@@ -48,6 +49,28 @@ I have picked Trebuchet MS, a Sans Serif type face as my font for all body text 
 * Choosing a sans serif font for the site - these fonts are suitable for people with dyslexia.
 * Ensuring that there is a sufficient colour contrast throughout the site.
 * In the footer, all the buttons redirecting users to social media profiles are located so it is visible to users if they scroll further without cluttering the main content.
+
+### Wireframes
+
+Wireframes were created for mobile and desktop versions, the design has changed a bit since their inception based on practical and design considerations.
+
+- Home page
+![index-wireframe](assets/readme/Wireframes/index-wireframe.webp)
+
+- Home page mobile
+![mobile-index-wireframe](assets/readme/Wireframes/mobile-index-wireframe.webp)
+
+- Contact page
+![form-wireframe](assets/readme/Wireframes/form-wireframe.webp)
+
+- Contact page mobile
+![mobile-about-wireframe](assets/readme/Wireframes/mobile-about-wireframe.webp)
+
+- Reviews page
+![mobile-reviews-wireframe](assets/readme/Wireframes/mobile-reviews-wireframe.png)
+
+- Reviews page mobile
+![Reviews-wireframe](assets/readme/Wireframes/reviews-wireframe.webp)
 
 ## Features
 
