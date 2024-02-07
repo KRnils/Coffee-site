@@ -6,29 +6,46 @@ Welcome to Cork Coffee Friend, your ultimate guide to exploring the vibrant caf�
 
 ## Table of Contents
 
-
 ## Introduction
 Cork Coffee Friend is a curated platform that dives into the heart of Cork City's café scene. We specialize in reviews that capture the essence of each café, providing insights into the coffee quality, ambiance, and unique features that make each location special.
 
-## Features
+## Design
 
-### Existing Features
+### Colour Scheme
+
+I picked neutral earthy tones for the colour scheme to help maintain a cleaner, minimal look as the website will hold multiple photos and text reviews. It also fits the theme of coffee and cafes.
+
+For consistency:
+- To keep things as readable as possible in body text the background is white and the text is black, menu elements and pictures provide more interesting colors.
+- I have used #AD8350 for the header and #ECE2D0 for the body background, these colors are also found in the hero image and go well with the red subject in that image.
+
+In my css file I declared the colours as variables, and then used these throughout the css file.
+
+### Typography
+I have picked Trebuchet MS, a Sans Serif type face as my font for all body text on the website. It has a unique personality while maintaining readability and clarity without being too formal and tedious.
+
+### Accessibility
+I have utilised underlined hyperlinked text when hovered over to help convey that they are clickable. I have also used a button in the Contact page to draw users attention as a call to action. The text  has sufficient spacing which helps readability. The flow in which the sequence of tabs are arranged is also deliberate so it is intuitive for users to first navigate to Home and later on Reviews at the bottom of the Home page. The Contact page is located last on the header. On the footer, all the buttons redirecting users to social media profiles are located so it is visible to users if they scroll further without cluttering the main content.
+
+## Features
 
 * Four html pages with styles in one CSS file to create a uniform style
 * Four real café reviews
 * All links and buttons react to hover so it's clear that they are interactive
 * Newsletter sign-up form with validation
 
+### Existing Features
+
 * __Navigation Bar__
 
 - All pages of the website has the navigation bar at the top that links to other parts of the site to allow for easy navigation to different parts of the website.
 - The navigation bar highlights any of the links when they are hovered and they react when they are clicked. The same highlight color is used to show which page is currently open. In the screenshot below the Home page is open so the link for that is highlighted.
 
-![Results of https://ui.dev/amiresponsive test for index.html](assets/readme/navbar-demo.jpg)
+![Navbar](assets/readme/navbar-demo.jpg)
 
 * __Footer__
 
-- All pages have the same footer, with links to social media in the form of their respective logos, like the navbar links the social media links also highlight when hovered over to help show that they are clickable, unlike the navbar the social media links open in a new window.
+- All pages have the same footer with links to social media in the form of their respective logos. Similar to the navbar behaviour, the social media links also highlight when hovered over to help show that they are clickable, unlike the navbar the social media links open in a new window.
 
 ![Footer](assets/readme/footer-demo.jpg)
 
@@ -40,18 +57,30 @@ Cork Coffee Friend is a curated platform that dives into the heart of Cork City'
 
 - __Welcome Text__
 
-  - This is a brief description of the purpose of the website, to guide people visiting or living in Cork City to the best coffee in the city.
-  - At the end of the text there is a link to the reviews page to help guide the user.
+- This is a brief description of the purpose of the website, to guide people visiting or living in Cork City to the best coffee in the city.
+- At the end of the text there is a link to the reviews page to help guide the user.
 
 ![Welcome text](assets/readme/welcome-text-demo.jpg)
 
 - __Reviews__
 
-  - This page features the reviews of the cafes that is the main goal of the site, each review consists of a text and an image to help show what the cafes are like. Points considered for each cafe is size, coffee quality, prices and how busy they are. Also important notes like if they serve food and if it's good or if you should stick to the coffee.
-  - The text and images are actually all AI generated!
+- This page features the reviews of the cafes that is the main goal of the site, each review consists of a text and an image to help show what the cafes are like. Points considered for each cafe is size, coffee quality, prices and how busy they are. Also important notes like if they serve food and if it's good or if you should stick to the coffee.
+- The text and images are actually all AI generated!
+
+![Reviews](assets/readme)
 
 - __Contact Form__
-    - placehodler
+- Has a brief text to give a bit more behind-the-scenes explanation of the site and gives the user the option to sign up to the Cork Coffe Friend newsletter to keep up to date with the site. The idea is that an E-Mail will be sent out whenever a new cafe is reviewed.
+
+![Contact](assets/readme/contact-demo.jpg)
+
+- __Thank You Page And Text__
+
+- This page is not linked in the navbar as the only purpose is to signify the success of sending the newsletter sign-up form.
+- At the end of the text there's a link to the front page to guide the user after the success and thank you message has been delivered.
+
+![Thank you](assets/readme/thank-you-demo.jpg)
+
 
 ## Testing
 
@@ -70,6 +99,10 @@ __All CSS has been testeed with W3C validator (Jigsaw) and show no errors or war
 
 ### Accessibility
 
+* Semantic HTML
+* All links use a 
+* Choosing a sans serif font for the site - these fonts are suitable for people with dyslexia.
+* Ensuring that there is a sufficient colour contrast throughout the site.
 All scores were 100 for all Lighthouse tests except performance which reached as low as 96 on the reviews.html page on mobile. 
 
 see [TESTING.md](TESTING.md) for full list of scores and other tests performed.
@@ -98,6 +131,8 @@ The live link can be found here - https://krnils.github.io/Coffee-site/
 - All other text was written by me personally.
 - Lots of inspiration was taken from the Code Institute Love Running project
 - This Stackoverflow thread helped me figure out how to get the footer and main elements behave like I wanted them: https://stackoverflow.com/questions/6654958/make-body-have-100-of-the-browser-height
+- The social media links in the footer are provided by [Font Awesome](https://fontawesome.com/)
+- Favicon was provided by https://favicon.io/ see [favicon about](assets/favicon/about.txt) for license details
 
 ### Media
 - https://playgroundai.com/ was used to create the images for the reviews, they are all inspired by the real locations but I did not have time to go take pictures.
@@ -110,3 +145,5 @@ The live link can be found here - https://krnils.github.io/Coffee-site/
 - [Lighthouse](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?pli=1) helped find issues with performance, accessibility, and SEO. The final results are also included in this README.md.
 - [W3C HTML Validator](https://validator.w3.org/) Was used to validate all HTML, some issues were found and fixed this way.
 - [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) Was used to validate the CSS, no issues were found.
+- [Coolors](https://coolors.co/) Was used to help pick colors that fit the mood while maintaining good contrast for readability and accessibility.
+- Initially development started in [gitpod](https://gitpod.io/), since it's essentially running VS Code in a browser I soon installed [VS Code](https://code.visualstudio.com/) and ran it locally instead for better performance.
