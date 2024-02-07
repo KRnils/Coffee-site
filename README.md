@@ -68,11 +68,12 @@ I have picked Trebuchet MS, a Sans Serif type face as my font for all body text 
 - __Reviews__
 
 - This page features the reviews of the cafes that is the main goal of the site, each review consists of a text and an image to help show what the cafes are like. Points considered for each cafe is size, coffee quality, prices and how busy they are. Also important notes like if they serve food and if it's good or if you should stick to the coffee.
-- The text and images are actually all AI generated!
+- Between each review there is a divider to help show where one review start and another ends. Semantic HTML is used here
 
-![Reviews](assets/readme)
+![Reviews](assets/readme/reviews-demo1.jpg)
 
 - __Contact Form__
+
 - Has a brief text to give a bit more behind-the-scenes explanation of the site and gives the user the option to sign up to the Cork Coffe Friend newsletter to keep up to date with the site. The idea is that an E-Mail will be sent out whenever a new cafe is reviewed.
 
 ![Contact](assets/readme/contact-demo.jpg)
@@ -110,6 +111,7 @@ see [TESTING.md](TESTING.md) for all details and a full list of scores and other
 * Navbar links would shift to a different horizontal alignment from site logo for smaller devices causing a bad look. Issue was caused by size of navbar being set relative to width of screen/window, and the contents of the navbar overflowing, the contents would still be visible but the center of the element would not be centered. Solution was to add a min-width attribute to navbar so elements would not overflow the navbar size when there is less space available. 
 
 ### Known Bugs
+
 * Validation for the newsletter form does not check if the email field contains a valid email address, if both fields have any text it will pass the validation. Only leaving either field blank gives a warning and stops progress until amended.
 
 ## Deployment
@@ -142,6 +144,6 @@ The live link can be found here - https://krnils.github.io/Coffee-site/
 - [Lighthouse](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?pli=1) helped find issues with performance, accessibility, and SEO. The final results are also included in this README.md.
 - [W3C HTML Validator](https://validator.w3.org/) Was used to validate all HTML, some issues were found and fixed this way.
 - [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) Was used to validate the CSS, no issues were found.
-- [Coolors](https://coolors.co/) Was used to help pick colors that fit the mood while maintaining good contrast for readability and accessibility.
-- Initially development started in [gitpod](https://gitpod.io/), since it's essentially running VS Code in a browser I soon installed [VS Code](https://code.visualstudio.com/) and ran it locally instead for better performance.
-- [cwebp](https://developers.google.com/speed/webp/download) Was used to convert images to webp
+- [Coolors](https://coolors.co/) was used to help pick colors that fit the mood while maintaining good contrast for readability and accessibility.
+- [gitpod](https://gitpod.io/) is where the project initally started, since it's essentially running VS Code in a browser I soon installed [VS Code](https://code.visualstudio.com/) and ran it locally instead for better performance.
+- [cwebp](https://developers.google.com/speed/webp/download) was used to convert images to webp
