@@ -1,9 +1,3 @@
-# Coffee-Site
-
-Welcome to Cork Coffee Friend, your ultimate guide to exploring the vibrant café culture in Cork City! Whether you're a seasoned coffee connoisseur or someone looking for a cozy spot to enjoy a cup of joe, we've got you covered.
-
-![Results of https://ui.dev/amiresponsive test for index.html](assets/readme/amiresponsive-index.jpg)
-
 ## Table of Contents
 - [Coffee-Site](#coffee-site)
   * [Table of Contents](#table-of-contents)
@@ -24,7 +18,12 @@ Welcome to Cork Coffee Friend, your ultimate guide to exploring the vibrant caf�
     + [Content](#content)
     + [Media](#media)
     + [Tools](#tools)
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
+# Coffee-Site
+
+Welcome to Cork Coffee Friend, your ultimate guide to exploring the vibrant café culture in Cork City! Whether you're a seasoned coffee connoisseur or someone looking for a cozy spot to enjoy a cup of joe, we've got you covered.
+
+![Results of https://ui.dev/amiresponsive test for index.html](assets/readme/amiresponsive-index.jpg)
 
 ## Introduction
 Cork Coffee Friend is a curated platform that dives into the heart of Cork City's café scene. We specialize in reviews that capture the essence of each café, providing insights into the coffee quality, ambiance, and unique features that make each location special.
@@ -167,3 +166,4 @@ The live link can be found here - https://krnils.github.io/Coffee-site/
 - [Coolors](https://coolors.co/) was used to help pick colors that fit the mood while maintaining good contrast for readability and accessibility.
 - [gitpod](https://gitpod.io/) is where the project initally started, since it's essentially running VS Code in a browser I soon installed [VS Code](https://code.visualstudio.com/) and ran it locally instead for better performance.
 - [cwebp](https://developers.google.com/speed/webp/download) was used to convert images to webp
+- [http://ecotrust-canada.github.io/markdown-toc](http://ecotrust-canada.github.io/markdown-toc) table of contents generated with markdown-toc

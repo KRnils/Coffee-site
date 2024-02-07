@@ -2,21 +2,18 @@
 
 ## CONTENTS
 
-* [AUTOMATED TESTING](#Automated-Testing)
+* [Automated Testing](#Automated-Testing)
   * [W3C Validator](#W3C-HTML-Validation)
   * [Lighthouse](#Lighthouse)
   * [Am I Responsive](#Am-I-Responsive)
 
-* [MANUAL TESTING](#manual-testing)
+* [Manual Testing](#manual-testing)
   * [Devices](#Devices)
-  * [Devices](#Tests-Performed-Per-Page)
-
+  * [All manual tests](#Tests-Performed-Per-Page)
 
 
 Testing was performed continously during development. A large amount of credit goes to Chrome developer tools and the function to adjust device dimensions to simulate different devices.
 At the last stage of development Lighthouse (also in Chrome dev tools) was used to test site performance and fix a few things for SEO and accessibility, results from the Lighthouse test is included below.
-
-
 
 ## Automated Testing
 ### W3C HTML Validation
