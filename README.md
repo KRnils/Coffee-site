@@ -5,6 +5,26 @@ Welcome to Cork Coffee Friend, your ultimate guide to exploring the vibrant caf�
 ![Results of https://ui.dev/amiresponsive test for index.html](assets/readme/amiresponsive-index.jpg)
 
 ## Table of Contents
+- [Coffee-Site](#coffee-site)
+  * [Table of Contents](#table-of-contents)
+  * [Introduction](#introduction)
+  * [Design](#design)
+    + [Colour Scheme](#colour-scheme)
+    + [Typography](#typography)
+    + [Accessibility](#accessibility)
+  * [Features](#features)
+    + [Existing Features](#existing-features)
+  * [Testing](#testing)
+    + [W3C Validator Testing](#w3c-validator-testing)
+    + [Accessibility Test](#accessibility-test)
+    + [Solved Bugs](#solved-bugs)
+    + [Known Bugs](#known-bugs)
+  * [Deployment](#deployment)
+  * [Credits](#credits)
+    + [Content](#content)
+    + [Media](#media)
+    + [Tools](#tools)
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
 ## Introduction
 Cork Coffee Friend is a curated platform that dives into the heart of Cork City's café scene. We specialize in reviews that capture the essence of each café, providing insights into the coffee quality, ambiance, and unique features that make each location special.
@@ -68,7 +88,7 @@ I have picked Trebuchet MS, a Sans Serif type face as my font for all body text 
 - __Reviews__
 
 - This page features the reviews of the cafes that is the main goal of the site, each review consists of a text and an image to help show what the cafes are like. Points considered for each cafe is size, coffee quality, prices and how busy they are. Also important notes like if they serve food and if it's good or if you should stick to the coffee.
-- Between each review there is a divider to help show where one review start and another ends. Semantic HTML is used here
+- Between each review there is a divider to help show where one review start and another ends. Semantic HTML is also used to help clarify the border between reviews, each review is in it's own article element. New reviews can easily be added in the future by following the same format.
 
 ![Reviews](assets/readme/reviews-demo1.jpg)
 
